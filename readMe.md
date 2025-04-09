@@ -10,11 +10,18 @@ This project will serve as a travel journal and Trip planner and recommendation 
 * (Done) Come up with a name for the project. Possible names: TrailTales.com
 * Ai travel journal writing assistant
 * Wishlist travel planning
-* pricing for travel plan (ai-assist)
+* Trail guide / description like Alltrails for travel
+* Pricing for travel plan (ai-assist)
+* Add User Accounts
 
 **To-Do**
 * (Done) Determine the tech stack I want to use
+* Login/Sign-up and user accounts
 * Create the travel journal part of the site
+* Design the following pages & components:
+    * Landing page
+    * Nav component
+* Pick site colors
 
 **Tech Stack**
 * Java (springboot)
