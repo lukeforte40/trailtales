@@ -39,8 +39,9 @@ nav{
 
     #lowerNav{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         .hamburger{
             cursor: pointer;
@@ -50,11 +51,42 @@ nav{
     
         .navLinks{
             display: none;
-    
+            flex-direction: column;
+            border: 1px solid black;
+            margin-top: 10px;
+            border-radius: 10px;
+
             a{
                 text-decoration: none;
                 color: black;
                 font-size: 1.15em;
+                padding: 10px;
+                border-radius: 10px;
+                margin: 10px;
+
+                &:hover{
+                    background-color: lightgrey;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    #lowerNav{
+        .hamburger{
+            display: none;
+        }
+        .navLinks{
+            display: flex !important;
+            flex-direction: row !important;
+            border: none !important;
+            margin: 0 !important;
+            border-radius: 0;
+
+            a{
+                margin: 0 10px !important; 
+                padding: 5px 10px !important;
             }
         }
     }
