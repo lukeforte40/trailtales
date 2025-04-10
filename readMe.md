@@ -22,7 +22,7 @@ This project will serve as a travel journal and Trip planner and recommendation 
     * Landing page
     * Nav component
 * Pick site colors
-* Animate hamburger rotate
+* (Done) Animate hamburger rotate
 
 **Tech Stack**
 * Java (springboot)
