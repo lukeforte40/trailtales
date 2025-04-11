@@ -23,6 +23,10 @@ This project will serve as a travel journal and Trip planner and recommendation 
     * Nav component
 * Pick site colors
 * (Done) Animate hamburger rotate
+* set up user table
+* set up password hashing
+* set up profile pic upload
+* externalize application.properties
 
 **Tech Stack**
 * Java (springboot)
